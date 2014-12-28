@@ -1,6 +1,6 @@
 CXX=g++
 
-CXXFLAGS= -std=c++11 -Wfatal-errors -O3 -Wunused-variable -Wall -Wextra
+CXXFLAGS= -std=c++11 -Wfatal-errors -O3 -Wunused-variable -Wall -Wextra -ftemplate-depth=1500
 
 HEADER_FILES :=  $(wildcard *.hpp)
 .PHONY: clean default
